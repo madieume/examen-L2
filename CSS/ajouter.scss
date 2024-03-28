@@ -1,0 +1,173 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Styles pour le header
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+// Styles pour les éléments de la page
+.ges {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.bleu {
+  width: 7%;
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  font-size: 22px;
+  margin-left: 73%;
+}
+
+.p {
+  font-weight: bold;
+  text-align: center;
+}
+
+.gri {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color:red;
+  padding: 10px;
+  font-size: 22px;
+  height: 50%;
+  // border: 1px solid ;
+}
+
+.gri div {
+  padding: 5px;
+//   background-color: hsl(0, 83%, 37%);
+
+
+}
+
+.rouge{
+    // background-color: hsl(0, 83%, 37%);
+    color: white;
+    padding: 5px;
+
+    
+
+}
+.noir {
+background-color: white;
+  color:black;
+ 
+  cursor: pointer;
+}
+
+.gri1,
+.gri2,
+.gri3,
+.gri4,
+.gri5,
+.gri6,
+.gri7,
+.gri8,
+.gri9,
+.gri10 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.rouge1,
+.rouge2,
+.rouge3,
+.rouge4 {
+  // background-color: hsl(0, 83%, 37%);
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.n,
+.n1,
+.n2,
+.n3,
+.n4,
+.n5,
+.n6,
+.n7,
+.n8,
+.n9 {
+  font-weight: bold;
+}
+
+.p,
+.modifier,
+.modifier1,
+.modifier2,
+.modifier3,
+.modifier4,
+.archiver,
+.archiver1,
+.archiver2,
+.archiver3,
+.archiver4, {
+    text-align: center;
+  }
+
+  .adresse{
+    margin-left: -14%;
+  }
+  .dieu,.dieu1,.dieu2,.dieu3,.dieu4{
+    margin-left: -60%;
+  }
+  .aliou,.aliou1,.aliou2,.aliou3,.aliou4{
+    margin-left: -30%;
+  }
+
+
+  button {
+    background-color: transparent;
+    border: 1px solid #333; 
+    color: #333; 
+    padding: 5px 10px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, color 0.3s; 
+   margin-left: 75%;
+  
+ 
+  }
+  
+  button:hover {
+    background-color: #333; 
+    color: white; 
+  }
+  
+  .modifier {
+    margin-right: 10px; 
+  }
+  .archiver {
+    background-color: #ff3333; 
+    border-color: #ff3333; 
+    color: white; 
+  }
+
+ 

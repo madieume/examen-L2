@@ -1,0 +1,77 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav div {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.dashboard {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+/* Section des statistiques */
+.statistiques {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+/* Chaque statistique */
+.statistique {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.statistique h2 {
+  margin-bottom: 10px;
+}
+
+/* Couleurs différentes pour chaque statistique */
+.statistique:nth-child(1) {
+  background-color: #28a745; /* Vert */
+  color: white;
+}
+
+.statistique:nth-child(2) {
+  background-color: #ffc107; /* Jaune */
+}
+
+.statistique:nth-child(3) {
+  background-color: #dc3545; /* Rouge */
+  color: white;
+}
+
+.statistique:nth-child(4) {
+  background-color: #17a2b8; /* Bleu */
+}/*# sourceMappingURL=statique.css.map */

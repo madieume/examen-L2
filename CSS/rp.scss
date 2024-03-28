@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  // Styles pour le header
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .logo {
+    font-size: 24px;
+  }
+  
+  .nav {
+    display: flex;
+  }
+  
+  .nav div {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  // Styles pour les éléments de la page
+  .paiement{
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  footer {
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    text-align: center;
+  }
+  
+  /* Sections */
+  section {
+    padding: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Boutons */
+  button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Bouton "Enregistrer Paiement" */
+  .enregistrer-paiement-button {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  /* Autres boutons */
+  .commandes-encours-button {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .historique-versements-button {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .montant-restant-button {
+    background-color: #ffc107;
+    color: #333;
+  }
+  
+  .dette-fournisseur-button {
+    background-color: #dc3545;
+    color: white;
+  }
